@@ -29,23 +29,17 @@ Interacts with the database using Spring Data JPA.
 Database
 PostgreSQL running in a Docker container.
 
-Features
-
+**Features**
 Create a new Software Engineer
-
 Retrieve all Software Engineers
-
 Retrieve a Software Engineer by ID
-
 Update an existing Software Engineer
-
 Delete a Software Engineer
-
-Automatic table generation using JPA
-
+Automatic table generation using JPA\
 JSON-based request and response handling
 
-REST API Endpoints
+
+**REST API Endpoints**
 
 Create Engineer
 POST /api/v1/software-engineers
@@ -62,47 +56,36 @@ PUT /api/v1/software-engineers/{id}
 Delete Engineer
 DELETE /api/v1/software-engineers/{id}
 
-Database Configuration
+
+
+**Database Configuration**
 
 The application connects to a PostgreSQL database configured in application.properties.
-
 Example configuration:
-
 spring.datasource.url=jdbc:postgresql://localhost:5432/your_database
 spring.datasource.username=your_username
 spring.datasource.password=your_password
-
 Ensure that PostgreSQL is running before starting the application.
 
-Running the Application
+
+
+**Running the Application**
 
 Start PostgreSQL using Docker or local installation.
-
 Update database credentials in application.properties.
-
 Build the project using Maven.
-
-Run the Spring Boot application.
-
+Run the Spring Boot application.\
 Test endpoints using Postman or any HTTP client.
-
 Learning Outcomes
-
 Through this project, the following backend concepts were implemented:
-
 RESTful API development
-
 CRUD operations using Spring Data JPA
-
 Entity mapping and ORM using Hibernate
-
 Docker-based database setup
-
 Git version control and repository management
-
 Layered backend architecture design
 
-Author
 
+**Author**
 Ayush Kute
-Backend Developer (Java | Spring Boot | PostgreSQL | Docker)
+Software Engineer 
