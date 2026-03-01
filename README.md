@@ -17,8 +17,11 @@ Docker
 Maven
 Git
 
-Architecture
 
+
+
+
+**Architecture**************
 The application follows a layered structure:
 Controller Layer
 Handles HTTP requests and responses.
@@ -27,7 +30,11 @@ Contains business logic and communicates between controller and repository.
 Repository Layer
 Interacts with the database using Spring Data JPA.
 Database
-PostgreSQL running in a Docker container.
+PostgreSQL running in a Docker container.\
+
+
+
+
 
 **Features**
 Create a new Software Engineer
@@ -37,6 +44,9 @@ Update an existing Software Engineer
 Delete a Software Engineer
 Automatic table generation using JPA\
 JSON-based request and response handling
+
+
+
 
 
 **REST API Endpoints**
@@ -58,6 +68,12 @@ DELETE /api/v1/software-engineers/{id}
 
 
 
+
+
+
+
+
+
 **Database Configuration**
 
 The application connects to a PostgreSQL database configured in application.properties.
@@ -66,6 +82,11 @@ spring.datasource.url=jdbc:postgresql://localhost:5432/your_database
 spring.datasource.username=your_username
 spring.datasource.password=your_password
 Ensure that PostgreSQL is running before starting the application.
+
+
+
+
+
 
 
 
